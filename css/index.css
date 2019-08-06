@@ -1,0 +1,37 @@
+body {
+  font-family: Montserrat, sans-serif;
+}
+.navbar-brand {
+  font-size: 36px;
+  padding-left: 75px;
+}
+.nav-item {
+  font-size: 24px;
+}
+.collapse {
+  padding-left: 785px;
+}
+.jumbotron {
+  height: 750px;
+  padding: 150px 90px 90px 90px;
+  background-image: url("../images/headphones.jpg");
+  background-size: cover;
+}
+.bounceMe {
+  animation: bounceArrow 1s infinite;
+  width: 100px;
+  height: 100px;
+  margin-left: 618px;
+  margin-top: 240px;
+}
+@keyframes bounceArrow {
+  0%{
+    margin-top: 165px;
+  }
+  50% {
+    margin-top: 180px;
+  }
+  100% {
+    margin-top: 165px;
+  }
+}
